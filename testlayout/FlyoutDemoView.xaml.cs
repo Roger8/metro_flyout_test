@@ -35,9 +35,16 @@ namespace testlayout
             var flyout = (Flyout)this.Flyouts.Items[6];
             flyout.Position = Position.Left;
         }
+        
+        int count = 0;
         private void ShowLeft(object sender, RoutedEventArgs e)
         {
-            this.ToggleFlyout(6);
+            count++;
+            if(count>=11)
+            {
+                count = 0;
+            }
+            this.ToggleFlyout(count);
         }
 
         private void ToggleFlyout(int index)
