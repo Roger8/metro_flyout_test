@@ -49,8 +49,7 @@
                                      Controls:TextBoxHelper.Watermark="TextBox 08" />
                             <TextBox Margin="0,5,0,0"
                                      Controls:TextBoxHelper.Watermark="TextBox 09" />
-                            <TextBox Margin="0,5,0,0"
-                                     Controls:TextBoxHelper.Watermark="TextBox 10" />
+                         
                         </StackPanel>
                     </ScrollViewer>
                     <UniformGrid Columns="2"
